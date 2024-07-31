@@ -6,7 +6,7 @@ def main():
 
     st.title("Biodata-ku")
 
-    image = Image.open("../../kucing.jpeg")
+    image = Image.open("./kucing.jpeg")
     st.image(image, width=300)
 
     with st.container():
